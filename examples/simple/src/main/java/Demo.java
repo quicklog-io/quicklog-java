@@ -26,8 +26,10 @@ public class Demo {
 		try {
 			quicklog.entry(Instant.now(), "a-type", "object:1", "target:2", extra, traceCtx, tags);
 			System.out.println("OK: Logged.");
+            System.exit(0);
 		} catch (Exception e) {
 			System.out.println("Error: " + e.toString());
+            System.exit(1);
 		}
 	}
 }
