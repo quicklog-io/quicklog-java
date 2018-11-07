@@ -47,12 +47,12 @@ public class Demo {
 }
 ```
 
-Build it:
+### Build it:
 
 - `cd examples/simple`
 - `mvn package`
 
-Run it:
+### Run it:
 
 - `java -jar target/java -jar target/quicklog-client-demo-0.1.0.jar`
 
