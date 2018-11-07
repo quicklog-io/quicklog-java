@@ -58,6 +58,8 @@ public class Demo {
 
 It should send a log entry to api.quicklog.io and print `OK: Logged`.
 
+### Verify it:
+
 Verify that the entry was logged:
 
 - `curl -si 'https://api.quicklog.io/entries?project_id=12345&api_key=my-api-key'`
